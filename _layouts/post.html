@@ -71,8 +71,16 @@ post_class: post-template
                     <!-- Author Name -->
                     <h4> {{ site.author }} </h4>
                     <!-- Author Bio -->
-                    <p> 
-                        Here goes the author description. You might want to place some links too in here
+		    <p> 
+		    	[<a href="/">index</a>]
+		    	[<script>
+			       var emailFloyd = '<a href="mai'+'lto:floyd.blog'+'@'+'icl'+'oud.com">email me</a>'
+			document.write(emailFloyd);
+			//-->
+			</script>] 
+		    	[<a href="http://www.twitter.com/ffdtm" target="_blank">@ffdtm</a>]
+		    	[<a href="https://plus.google.com/+FloydArguello/posts" target="_blank">+FloydArguello</a>]
+		    	[<a href="/rss.xml">rss</a>]
                     </p>
                 </section>                
             {% endif %}
