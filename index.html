@@ -11,14 +11,23 @@ cover: false
                     <img src="{{ page.logo }}" alt="Blog Logo" />
                 </a>
             {% endif %}
-        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+        <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">meta</a>
     </nav>
     <div class="vertical">
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
-                {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+                <!-- {% if site.description %} {{ site.description }}. {% endif %}
+		{% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %} -->
+		[<a href="/">index</a>]
+		    	[<script>
+			       var emailFloyd = '<a href="mai'+'lto:floyd.blog'+'@'+'icl'+'oud.com">email me</a>'
+			document.write(emailFloyd);
+			//-->
+			</script>]
+		    	[<a href="http://www.twitter.com/ffdtm" target="_blank">@ffdtm</a>]
+		    	[<a href="https://plus.google.com/+FloydArguello/posts" target="_blank">+FloydArguello</a>]
+		    	[<a href="/feed.xml">rss</a>]
             </h2>
         </div>
     </div>
