@@ -7,9 +7,9 @@ highlighter: pygments
 logo: false
 paginate: 15
 baseurl: /
-domain_name: 'http://www.fja.com'
+domain_name: 'http://meta.fja.io'
 google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
-url:            'www.fja.io'
+url:            'meta.fja.io'
 author:         'Floyd Argüello'
