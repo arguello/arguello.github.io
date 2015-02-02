@@ -2,7 +2,7 @@
 layout: post
 title:  "Daddy-Daughter Racketeering"
 date:   2015-02-01 10:18:00
-categories: Racket Programming
+categories: Racket Programming Parenting
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
