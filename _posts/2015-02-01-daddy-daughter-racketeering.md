@@ -3,6 +3,7 @@ layout: post
 disqus: true
 title: "Daddy-Daughter Racketeering"
 date: 2015-02-02 21:18:31
+permalink: daddy-daughter-racketeering
 categories:
   - Racket
   - Programming
