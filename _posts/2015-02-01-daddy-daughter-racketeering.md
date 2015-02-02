@@ -79,7 +79,7 @@ Perhaps a little too easy?
 
 Could it be a trap?!!
 
-Treading carefully, I tried [An Introduction to Racket with Pictures](http://docs.racket-lang.org/quick/). Simple and cool, I started thinking that the Lisps have an undeserved reputation. All the same, Ariel would need more than a quick introduction.
+Treading carefully, I tried [An Introduction to Racket with Pictures](http://docs.racket-lang.org/quick/). Simple and cool. I started thinking that the Lisps have an undeserved reputation. All the same, Ariel would need more than a quick introduction.
 
 So, I continued my recce, and found the book [Realm of Racket: Learn to Program, One Game at a Time!](http://www.amazon.com/Realm-Racket-Learn-Program-Game/dp/1593274912/)
 
@@ -90,7 +90,7 @@ Now, I'm no conspiracy theorist - but either the Lisp naysayers are a group of s
 But... [Realm of Racket](http://realmofracket.com) looks good, really good. It has [11 authors](http://realmofracket.com/about.html) (can you say peer-review?), and it appears to gradually introduce programming concepts in a gentle and fun way. And there's the simple Racket install, with the included IDE and REPL.
 
 ###Racket FTW!
-OK, DrRacket, you sexy beast, you twisted our arms - we'll enter the Realm of Racket and learn your syntax, dialects, macros and libraries.
+OK, DrRacket, you sexy beast, you twisted our arms - we'll enter the Realm of Racket and learn your syntax, dialects, macros, libraries and whatnot.
 
 We'll wade into your parenthetical depths armed with nothing more than our wits, [a map](http://www.nostarch.com/realmofracket.htm), and a broadband connection to your [mailing lists](http://lists.racket-lang.org) and [freenode IRC channel](http://racket-lang.org/irc-chat.html).
 
