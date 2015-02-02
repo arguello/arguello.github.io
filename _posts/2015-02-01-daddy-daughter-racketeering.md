@@ -92,7 +92,7 @@ But... [Realm of Racket](http://realmofracket.com) looks good, really good. It h
 ###Racket FTW!
 OK, DrRacket, you sexy beast, you twisted our arms - we'll enter the Realm of Racket and learn your syntax, dialects, macros and libraries.
 
-We'll wade into your parenthetical depths armed with nothing more than our wits, [a map](http://www.nostarch.com/realmofracket.htm), and a broadband connection to your [mailing lists]((http://lists.racket-lang.org)) and [freenode IRC channel](http://racket-lang.org/irc-chat.html).
+We'll wade into your parenthetical depths armed with nothing more than our wits, [a map](http://www.nostarch.com/realmofracket.htm), and a broadband connection to your [mailing lists](http://lists.racket-lang.org) and [freenode IRC channel](http://racket-lang.org/irc-chat.html).
 
 And we'll emerge as full-fledged Racketeers, with hard earned muscle memory mappings to Shift+9 and Shift+0.
 
