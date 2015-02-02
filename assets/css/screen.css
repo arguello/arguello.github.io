@@ -214,7 +214,6 @@ h1 {
 h2 {
     font-size: 3.6rem;
     letter-spacing: -1px;
-    padding-right: 5px;
 }
 
 h3 {
@@ -678,6 +677,10 @@ margin on the iframe, cause it breaks stuff. */
     font-family: "Merriweather", serif;
     letter-spacing: 0.01rem;
     color: rgba(255,255,255,0.8);
+}
+
+.page-description-image {
+    padding-right: 10px;
 }
 
 .no-cover.main-header {
