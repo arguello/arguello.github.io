@@ -62,7 +62,7 @@ Granted, there are other avenues to learning Ruby or Python, and it was while re
 
 ###Wait, Aren't Lisps Supposed to be Hard?
 
-Lisps seem to have reputations as relatively hard-to-learn languages wielded by [aliens](http://lispers.org) and/or artificially intelligent academic mathematician PhDs (often one and the same), and I wasn't ready to commit without further research.
+Lisps appear to have reputations as relatively hard-to-learn languages wielded by [aliens](http://lispers.org) and/or artificially intelligent academic mathematician PhDs (often one and the same), and I wasn't ready to commit without further research.
 
 My first foray into Racket was through the traditional **Hello World** program:
 
@@ -106,4 +106,4 @@ But first, we need a plan.
 4.  [Racket Users](http://lists.racket-lang.org/users/) and [#racket](http://racket-lang.org/irc-chat.html) - for any questions or help that we might need from the experts - sort of like office hours, but without the tuition.
 5.	OSS Project - TBD. We'll either contribute to an existing project, or start our own. Or both.
 
-We'll actually skip Step 1, but we still plan to have fun ;)
+We'll actually skip Step 1, but we still plan on having fun ;)
