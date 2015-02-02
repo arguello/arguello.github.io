@@ -1,6 +1,6 @@
 name: Floyd James Argüello
 description: a man among men, a legend in my own mind
-meta_description: "Floyd Arguello"
+meta_description: "Floyd James Argüello"
 
 markdown: redcarpet
 highlighter: pygments
@@ -8,7 +8,7 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://meta.fja.io'
-google_analytics: 'UA-XXXXXXXX-X'
+google_analytics: 'UA-59235159-1'
 
 # Details for the RSS feed generator
 url:            'meta.fja.io'
