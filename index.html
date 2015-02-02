@@ -17,9 +17,9 @@ cover: false
         <div class="main-header-content inner">
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
-		<a href="http://www.twitter.com/ffdtm" target="_blank"><img class="page-description-image" src="assets/images/twitter.png" alt="@ffdtm"></a>
-		<a href="http://www.instagram.com/rebelshrug" target="_blank"><img class="page-description-image" src="assets/images/instagram.png" alt="rebelshrug"></a>
-		<a href="https://plus.google.com/+FloydArguello/posts" target="_blank"><img src="assets/images/google_plus.png" alt="+FloydArguello"></a>
+		            <a href="http://www.twitter.com/ffdtm" target="_blank"><img class="page-description-image" src="assets/images/twitter.png" alt="@ffdtm"></a>
+		            <a href="http://www.instagram.com/rebelshrug" target="_blank"><img class="page-description-image" src="assets/images/instagram.png" alt="rebelshrug"></a>
+		            <a href="https://plus.google.com/+FloydArguello/posts" target="_blank"><img src="assets/images/google_plus.png" alt="+FloydArguello"></a>
             </h2>
         </div>
     </div>
@@ -44,16 +44,12 @@ cover: false
             {{ post.excerpt }} <a class="read-more" href="{{ post.url }}">&raquo;</a>
         </section>
         <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" />
-                {{ site.author }}
-            {% endif %}
-            {% if post.categories.size > 0 %} 
-                {{ post.categories | array_to_sentence_string | prepend: 'on ' }} 
+            {% if post.categories.size > 0 %}
+                {{ post.categories | array_to_sentence_string }}
             {% endif %}
             <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
                 {{ post.date | date_to_string }}
-            </time> 
+            </time>
         </footer>
     </article>
 
