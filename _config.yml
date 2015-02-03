@@ -3,7 +3,7 @@ description: Floyd James Argüello's blog about coding.
 meta_description: "Floyd James Argüello"
 
 markdown: redcarpet
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
