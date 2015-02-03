@@ -35,7 +35,7 @@ So, I enrolled at Jefferson Community College in Watertown, NY; and signed up fo
 
 ###WTH is a COBOL?
 
-To me, it sounded like some kind of futuristic super-tech wielded by NASA rocket science physicist hackers. Probably created by Einstein during his stint at the <a href="http://half-life.wikia.com/wiki/Black_Mesa_Research_Facility" target="_blank">Black Mesa Research Facility]</a>.
+To me, it sounded like some kind of futuristic super-tech wielded by NASA rocket science physicist hackers. Probably created by Einstein during his stint at the <a href="http://half-life.wikia.com/wiki/Black_Mesa_Research_Facility" target="_blank">Black Mesa Research Facility</a>.
 
 I quickly learned that wasn't the case. <a href="http://en.wikipedia.org/wiki/COBOL" target="_blank">COBOL</a> was designed to be a common business language. I knew nothing about business, and I was ignorant as to the inner workings of computers. In fact, this was my first computer class of any kind, and I was in over my head.
 
