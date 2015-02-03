@@ -5,19 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
     <title>{{ site.name }}</title>
-    <!-- <title>{{ site.name }} - {{ site.description }}</title> -->
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />
     {% else %}
     <meta name="description" content="Floyd James Argüello's blog about coding." />
     {% endif %}
-
     {% if page.keywords %}
     <meta name="keywords" content="{{ page.keywords }}" />
     {% else %}
     <meta name="keywords" content="software, data engineering, coding, lisp, racket, clojure, haskell, ruby" />
     {% endif %}
-
     <meta name="HandheldFriendly" content="True" />
     <meta name="MobileOptimized" content="320" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
