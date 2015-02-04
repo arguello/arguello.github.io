@@ -1,5 +1,5 @@
 name: Floyd James Argüello
-description: Floyd James Argüello's blog about coding.
+description: "Floyd James Argüello's blog about coding."
 meta_description: "Floyd James Argüello"
 
 markdown: redcarpet
@@ -10,8 +10,8 @@ baseurl: /
 domain_name: 'http://meta.fja.io'
 google_analytics: 'UA-59235159-1'
 
-# Details for the RSS feed generator
-url:            'meta.fja.io'
+url:            http://meta.fja.io
+production_url : http://meta.fja.io
 author:         'Floyd James Argüello'
 
 gems:
