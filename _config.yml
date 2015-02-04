@@ -14,8 +14,5 @@ google_analytics: 'UA-59235159-1'
 url:            'meta.fja.io'
 author:         'Floyd James Argüello'
 
-safe: true
-lsi: false
-
 gems:
   - jekyll-sitemap
