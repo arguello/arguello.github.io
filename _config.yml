@@ -13,3 +13,6 @@ google_analytics: 'UA-59235159-1'
 # Details for the RSS feed generator
 url:            'meta.fja.io'
 author:         'Floyd James Argüello'
+
+safe: true
+lsi: false
