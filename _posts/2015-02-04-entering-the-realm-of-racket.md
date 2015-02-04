@@ -4,7 +4,7 @@ disqus: true
 title: "Entering the Realm of Racket"
 description: "The first leg of our journey into the Realm of Racket, and Ariel likes programming - it's not as boring as she thought."
 keywords: "racket, realm of racket, lisp, land of lisp, coding, girls who code, parens, parentheses"
-date: 2015-02-04 13:45:05
+date: 2015-02-04 15:05:05
 permalink: entering-the-realm-of-racket
 categories:
   - Lisp
