@@ -16,3 +16,6 @@ author:         'Floyd James Argüello'
 
 safe: true
 lsi: false
+
+gems:
+  - jekyll-sitemap
