@@ -56,4 +56,4 @@ That's how long it took us to get through the first sections of the book and for
 ###The Best Part?
 We had fun.
 
-It's great to see a kid write their first game, then play with it afterward. I had forgotten what that feels like. And Realm of Racket really makes it a pleasant, fun experience.
+It's great to see your kid write their first game, then play it afterward. I had forgotten what that feels like. And Realm of Racket really makes it a pleasant, fun experience.
