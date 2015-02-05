@@ -1,6 +1,5 @@
 ---
 layout: post
-disqus: true
 title: "Entering the Realm of Racket"
 description: "The first leg of our journey into the Realm of Racket, and Ariel likes programming - it's not as boring as she thought."
 keywords: "racket, realm of racket, lisp, land of lisp, coding, girls who code, parens, parentheses"
@@ -55,6 +54,6 @@ And it got her thinking. She made an interesting observation about the game, whi
 That's how long it took us to get through the first sections of the book and for Ariel to complete the game. And a lot of that time was me showing off and over-explaining stuff.
 
 ###The Best Part?
-Ariel had fun.
+We had fun.
 
 It's great to see a kid write their first game, then play with it afterward. I had forgotten what that feels like. And Realm of Racket really makes it a pleasant, fun experience.

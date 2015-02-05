@@ -1,6 +1,5 @@
 ---
 layout: post
-disqus: true
 title: "Daddy-Daughter Racketeering"
 description: "Teaching my daughter to code - why I chose the Racket programming language and the book Realm of Racket."
 keywords: "racket, realm of racket, coding, girls who code, lisp"
