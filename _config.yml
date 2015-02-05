@@ -12,7 +12,7 @@ google_analytics: 'UA-59235159-1'
 
 url:            http://meta.fja.io
 production_url : http://meta.fja.io
-author:         'Floyd James Argüello'
+author:         'Floyd James Λrgüello'
 
 gems:
   - jekyll-sitemap
