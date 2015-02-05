@@ -11,7 +11,7 @@ categories:
   - Programming
   - Girls Who Code
 ---
-The first leg of our <a href="http://meta.fja.io/daddy-daughter-racketeering" target="_blank">journey into the Realm of Racket</a> went well. We're halfway through Chapter 3 now, so we've completed 4 sections (if you count the *Preface* and *Introduction*). Ariel's response was "I like programming, it's not as boring as I thought."  High praise, indeed.
+The first leg of our <a href="http://meta.fja.io/daddy-daughter-racketeering" target="_blank">journey into the Realm of Racket</a> went well. We're halfway through Chapter 3 now, so we've completed 4 sections (if you count the *Preface* and *Introduction*). Ariel's response was "I like programming, it's not as boring as I thought."  High praise, indeed!
 
 ##Cracking the Cover
 <a href="http://www.realmofracket.com/" target="_blank">Realm of Racket</a> is clever and well written, and it turns out to be based off of <a href="https://twitter.com/lisperati" target="_blank">Conrad Barski's</a> <a href="http://landoflisp.com" target="_blank">Land of Lisp</a> *(a powerful tome which I now possess)*.
