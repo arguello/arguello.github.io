@@ -51,3 +51,5 @@ And I ordered her a copy of <a href="http://www.nostarch.com/realmofracket.htm" 
 ###Gabby Chose the Path to Racket!
 
 She can still learn Ruby after she gets a handle on Lisp, but that might be like going back to high school after she graduates college.
+
+Gabby is competitive, and her sister Ariel is several chapters ahead of her - so this could get interesting.
