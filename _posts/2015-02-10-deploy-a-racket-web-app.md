@@ -4,7 +4,7 @@ title: "Deploy a Racket Web App"
 description: "How to reverse proxy a a Racket Web Server with nginx, and manage it with daemontools."
 keywords: "racket, web server, nginx, apache, reverse proxy, trycode.io"
 date: 2015-02-10 16:35:34
-permalink: racket-web-server-nginx-reverse-proxy-daemontools
+permalink: deploy-racket-web-application
 published: false
 categories:
   - Racket
@@ -21,11 +21,11 @@ After provisioning a droplet with Ubuntu 14.04 x64, I updated my domain to use D
 So, now I have a server, and my DNS is handled; but how do I get my Racket Web App up for public consumption?
 
 ###Apache
-I had mapped my domain name to my droplet, but not to my Racket Web Server - and I wasn't sure that I wanted the public to have direct access to it.
+I had mapped my domain name to my droplet, but set the Racket Web Server to listen on localhost - I wasn't sure that I wanted the public to have direct access to it.
 
 A quick Google search led me to <a href="http://docs.racket-lang.org/web-server-internal/Troubleshooting_and_Tips.html" target="_blank">The Racket Web Server Troubleshooting and Tips</a> page, which has a section on using Apache to proxy requests to a Racket Web Server. Ooh, proxies!
 
-Now, <a href="http://en.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank">Apache</a> is awesome - it has remained the most popular HTTP server since April 1996. In 2009, it became the first web server software to serve more than 100 million websites. In my case, however, using Apache would be like stuffing 10 pounds in a 5 pound sack.
+Now, <a href="http://en.wikipedia.org/wiki/Apache_HTTP_Server" target="_blank">Apache</a> is awesome - it has remained the most popular HTTP server since April 1996, and in 2009 it became the first web server software to serve more than 100 million websites. In my case, however, using Apache would be like stuffing 10 pounds in a 5 pound sack.
 
 In some circles, <a href="http://nginx.org/en/" target="_blank">nginx</a> is the undisputed king of reverse proxy servers. Its lightweight, performant, and scalable; and its known for having low memory usage - which makes it great for a VPS. And I'm hosting my site on a VPS.
 
@@ -44,10 +44,12 @@ Reverse proxies are cool - they provide benefits such as:
 I decided to use all those features.
 
 ####Installing and Configuring nginx
-Installing nginx is as simple as:
+On Ubuntu, installing nginx is as simple as:
 {% highlight bash %}
 sudo apt-get install nginx
 {% endhighlight %}
+
+*Go to <a href="http://wiki.nginx.org/Install" target="_blank">http://wiki.nginx.org/Install</a> to view instructions for other Operating Systems.*
 
 And configuring an nginx reverse proxy is as simple as:
 {% highlight nginx %}
@@ -57,7 +59,7 @@ server {
 }
 {% endhighlight %}
 
-I also wanted to redirect all *www* prefixed urls to the base url (from http://www.trycode.io to http://trycode.io), and https to http:
+I also wanted to redirect all *www* subdomains to the host url (from http://www.trycode.io to http://trycode.io), and https to http; so I added a permanent redirect (301) to the config file:
 
 {% highlight nginx %}
 server {
@@ -66,6 +68,7 @@ server {
 }
 {% endhighlight %}
 
-The above uses a 301 redirect, which helps with SEO.
+###nginx Caching
+The main benefit of a cache server is that we put less load on our Racket Web Server. Requests for static or dynamic assets that are cached need not even reach the application server - our cache server can handle many requests by itself!
 
-I also added caching; you can see the full config <a href="https://gist.github.com/arguello/9a25162d49e37df84e87#file-default" target="_blank">in this gist</a>.
+I also added caching, to save resources and speed up page loading; you can see the full config <a href="https://gist.github.com/arguello/9a25162d49e37df84e87#file-default" target="_blank">in this gist</a>.
